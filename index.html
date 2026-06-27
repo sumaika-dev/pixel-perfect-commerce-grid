@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>E-Commerce Storefront | Portfolio</title>
+</head>
+<body>
+
+<section class="products-section">
+  <div class="container">
+    <h2 class="section-title">Trending Products</h2>
+    
+    <div class="shop-layout">
+      
+      <aside class="filter-sidebar">
+        <div class="filter-group">
+          <h4>Categories</h4>
+          <ul>
+            <li><input type="checkbox" id="cat1" checked> <label for="cat1">All Products</label></li>
+            <li><input type="checkbox" id="cat2"> <label for="cat2">Electronics</label></li>
+            <li><input type="checkbox" id="cat3"> <label for="cat3">Audio</label></li>
+            <li><input type="checkbox" id="cat4"> <label for="cat4">Wearables</label></li>
+          </ul>
+        </div>
+
+        <div class="filter-group">
+          <h4>Price Range</h4>
+          <input type="range" min="0" max="500" value="250" class="price-slider">
+          <div class="price-labels">
+            <span>$0</span>
+            <span>$500</span>
+          </div>
+        </div>
+      </aside>
+
+      <div class="products-grid">
+
+        <article class="product-card">
+          <div class="product-image-wrapper">
+            <span class="badge sale">Sale</span>
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" alt="Minimalist Watch" class="product-image">
+            <button class="quick-view-btn">Quick View</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Electronics</p>
+            <h3 class="product-name">Minimalist Quartz Watch</h3>
+            <div class="product-meta">
+              <span class="price">$120.00</span>
+              <span class="old-price">$150.00</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image-wrapper">
+            <span class="badge new">New</span>
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" alt="Running Shoes" class="product-image">
+            <button class="quick-view-btn">Quick View</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Footwear</p>
+            <h3 class="product-name">Premium Running Shoes</h3>
+            <div class="product-meta">
+              <span class="price">$95.00</span>
+              <span class="old-price">$120.00</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image-wrapper">
+            <span class="badge hot">Hot</span>
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500" alt="Headphones" class="product-image">
+            <button class="quick-view-btn">Quick View</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Audio</p>
+            <h3 class="product-name">Wireless Headphones</h3>
+            <div class="product-meta">
+              <span class="price">$180.00</span>
+              <span class="old-price">$220.00</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image-wrapper">
+            <span class="badge best">Best</span>
+            <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500" alt="Smart Watch" class="product-image">
+            <button class="quick-view-btn">Quick View</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Wearables</p>
+            <h3 class="product-name">Smart Fitness Watch</h3>
+            <div class="product-meta">
+              <span class="price">$249.00</span>
+              <span class="old-price">$299.00</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+     </div> 
+    </div> 
+</section>
+</body>
+</html>
